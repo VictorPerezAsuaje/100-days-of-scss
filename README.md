@@ -1,6 +1,8 @@
 # 100 days of (S)CSS challenge
 
-Attempting the 100 days of (S)CSS by building 100 small projects using SCSS. The number 0 is the baseline I use for all projects, so they keep a certain consistency as specified in the following list:
+Attempting the 100 days of (S)CSS by building 100 small/simple projects using SCSS. The idea behind this is not just focusing on the CSS part - as some of them may also use Javascript to add a little bit of interactivity -, but to be disciplined, constant and try to work "under pressure" (time-schedule). 
+
+The number 0 is the baseline I use for all projects, so they keep a certain consistency as specified in the following list:
 
 - A title header
 - A 300x300 pixels canvas
@@ -14,9 +16,17 @@ Here you will see the whole list of projects done: http://todayilearned.eu/ 😄
 
 ## 🤘 Acknoledgements
 
-I'm not really sure which links I will finally use, but by now, this is the only one used:
-1. 100 days CSS Challenge (https://100dayscss.com/) by Matthias Martin.
+I'm not really sure which links I will finally use, but by now, this is the ones that I could use:
+1. https://100dayscss.com/
+2. https://codier.io/
+3. https://moeminm.github.io/goodcode/
+5. https://github.com/karan/Projects
+6. https://medium.com/better-programming/9-projects-to-inspire-front-end-developers-in-2020-a404545f6369
+7. https://www.frontendmentor.io/challenges
+8. https://courses.wesbos.com/account/access/601fb0772a34157df9ed9897/view/194130650
+9. https://medium.com/better-programming/here-are-6-frontend-challenges-to-code-9952190c97cc
 
+The one that I use is going to be mentioned in the project itself.
 
 ## 👉 License [![CC BY 4.0][cc-by-shield]][cc-by]
 
