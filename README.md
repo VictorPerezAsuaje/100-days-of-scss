@@ -36,6 +36,15 @@ Created by Victor Pérez Asuaje (https://www.victorperezasuaje.com/). This work 
 
 <br />
 
+## ❗ Milestones
+
+* ~~1-day streak~~ (beginning is a merit on itself 😋)
+* 7-day streak
+* 14-day streak
+* 30-day streak
+* 60-day streak
+* 100 days
+
 ### 1st Day - Simple Hamburger Menu Animation
 
 <p>The original challenge does not consider it an animation but an interactive button, as it would if I changed the animation from being activated by the "animation" property to an EventListener with Javascript (adding the class "active", for instance).  However, this was my approach. Maybe in the future I make a second version.</p>
