@@ -16,7 +16,7 @@ Here you will see the whole list of projects done: http://todayilearned.eu/ 😄
 
 ## 🤘 Acknoledgements
 
-I'm not really sure which links I will finally use, but by now, this is the ones that I could use:
+I'm not really sure which links I will finally use, but by now, these are the ones that I could use:
 1. https://100dayscss.com/
 2. https://codier.io/
 3. https://moeminm.github.io/goodcode/
