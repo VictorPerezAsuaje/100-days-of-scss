@@ -130,6 +130,7 @@ p {
   -webkit-box-shadow: 0 0 2px #80eec4;
           box-shadow: 0 0 2px #80eec4;
   position: relative;
+  outline: none;
 }
 
 .container .card__slider::-webkit-slider-thumb {

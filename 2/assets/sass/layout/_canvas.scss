@@ -59,6 +59,7 @@
             border-radius: 24px;
             box-shadow: 0 0 2px $color-light-green;
             position: relative;
+            outline:none;
 
             &::-webkit-slider-thumb{
                 -webkit-appearance: none;
