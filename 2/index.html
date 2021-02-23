@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 days of (S)CSS - Project #1</title>
+    <link rel="stylesheet" href="assets/sass/style.css" />
+    <link rel="shortcut icon" href="images/Logo_transp.ico" />
+</head>
+<body>
+    <main class="container">
+        <section class="explanation">
+            <h3>Simple, traffic-based pricing</h3>
+            <p>Sign-up for our 30-day trial.</p>
+            <p>No credit card required.</p>
+        </section>
+        
+        <section class="card">
+            <h6>100K PAGEVIEWS</h6>
+
+            <input type="range" min="1" max="32" value="16" class="card__slider"id="card-slider" oninput="ChangeValue(this.value)">
+            <p><span class="card__value" id="card-value">$16.00</span><span id="card__value-type"> / month</span></p>
+
+            <div id="mode-changer">
+                <p id="month">Month</p>
+                <div id="switch"></div>
+                <p id="year">Year</p> 
+            </div>
+        </section>
+        
+        <section class="features">
+            <ul>
+                <li>Unlimited websites</li>
+                <li>100% data ownership</li>
+                <li>Email reports</li>
+            </ul>
+        </section>
+    </main>
+    <!-- <footer class="attribution">
+        <p>Interactive pricing component made by Victor Pérez Asuaje for the <a href="https://github.com/VictorPerezAsuaje/100-days-of-scss">#100DaysOfCSS Challenge</a></p>
+    </footer> -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+@charset "UTF-8";
+html, *, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0d2862;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
+h6,
+p {
+  font-size: 1rem;
+}
+
+.attribution {
+  color: #120d2c;
+  opacity: 0.7;
+  font-style: italic;
+  position: absolute;
+  bottom: 2vh;
+  text-align: center;
+}
+
+.attribution p {
+  margin-top: 1rem;
+}
+
+.container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  -ms-grid-columns: 90%;
+      grid-template-columns: 90%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10vh 0;
+  text-align: center;
+  position: relative;
+}
+
+.container:before {
+  content: "";
+  position: absolute;
+  width: 400%;
+  background-color: #350974;
+  opacity: 0.05;
+  min-height: 100vh;
+  top: -60vh;
+  right: 0;
+  z-index: -1;
+  border-radius: 15%;
+}
+
+.container .explanation {
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.container .explanation h3 {
+  margin-bottom: 1rem;
+}
+
+.container .explanation p {
+  font-weight: lighter;
+  color: #818181;
+  margin-top: 0.25rem;
+}
+
+.container .card {
+  width: 100%;
+  height: 100%;
+  background-color: #fefefe;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3rem;
+}
+
+.container .card h6 {
+  color: #818181;
+  opacity: 0.6;
+  letter-spacing: 0.2rem;
+  margin-top: 2rem;
+}
+
+.container .card__slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  height: 5px;
+  width: 80%;
+  margin: 8vh auto;
+  background-color: #80eec4;
+  border-radius: 24px;
+  -webkit-box-shadow: 0 0 2px #80eec4;
+          box-shadow: 0 0 2px #80eec4;
+  position: relative;
+}
+
+.container .card__slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 35px;
+  width: 35px;
+  background: #51e4ab;
+  -webkit-box-shadow: 0 2px 15px #51e4ab;
+          box-shadow: 0 2px 15px #51e4ab;
+  border-radius: 50%;
+}
+
+.container .card p {
+  color: #120d2c;
+  opacity: 0.6;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card__value {
+  font-size: 2.5rem;
+  color: #818181;
+}
+
+.container .card #mode-changer {
+  width: 50px;
+  height: 25px;
+  border-radius: 100px;
+  border: 1px solid #cfcfcf;
+  background-color: #fefefe;
+  background-size: cover;
+  position: relative;
+  margin: 5vh auto 0;
+  left: 0;
+  right: 0;
+}
+
+.container .card #mode-changer #month {
+  position: absolute;
+  left: -55px;
+}
+
+.container .card #mode-changer #year {
+  position: absolute;
+  left: 55px;
+}
+
+.container .card #mode-changer #switch {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  background-color: #cfcfcf;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.container .card #mode-changer #switch.clicked {
+  -webkit-transform: translateX(24px);
+          transform: translateX(24px);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.container .features {
+  width: 100%;
+  height: 100%;
+  background-color: #fefefe;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container .features ul {
+  list-style: none;
+}
+
+.container .features ul li::before {
+  content: '✓';
+  color: #51e4ab;
+  margin-right: 1rem;
+}
+
+.container .features ul li {
+  font-weight: 600;
+  color: #818181;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    -ms-grid-columns: 60%;
+        grid-template-columns: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    -ms-grid-columns: 40%;
+        grid-template-columns: 40%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
