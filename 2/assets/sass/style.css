@@ -111,7 +111,7 @@ p {
   margin-bottom: 3rem;
 }
 
-.container .card h6 {
+.container .card h5 {
   color: #818181;
   opacity: 0.6;
   letter-spacing: 0.2rem;
@@ -122,7 +122,7 @@ p {
   -webkit-appearance: none;
   -moz-appearance: none;
        appearance: none;
-  height: 5px;
+  height: 6px;
   width: 80%;
   margin: 8vh auto;
   background-color: #80eec4;
@@ -136,8 +136,8 @@ p {
 .container .card__slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  height: 35px;
-  width: 35px;
+  height: 32px;
+  width: 32px;
   background: #51e4ab;
   -webkit-box-shadow: 0 2px 15px #51e4ab;
           box-shadow: 0 2px 15px #51e4ab;
@@ -168,6 +168,8 @@ p {
   margin: 5vh auto 0;
   left: 0;
   right: 0;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 .container .card #mode-changer #month {
@@ -178,6 +180,18 @@ p {
 .container .card #mode-changer #year {
   position: absolute;
   left: 55px;
+  font-weight: bold;
+}
+
+.container .card #mode-changer #discount {
+  position: absolute;
+  top: -5px;
+  left: 100px;
+  color: #DF4D0C;
+  font-weight: bold;
+  border: 2px solid #DF4D0C;
+  padding: 0.25rem 0.5rem;
+  border-radius: 24px;
 }
 
 .container .card #mode-changer #switch {
@@ -192,7 +206,7 @@ p {
   transition: .5s ease-in-out;
 }
 
-.container .card #mode-changer #switch.clicked {
+.container .card #mode-changer .clicked {
   -webkit-transform: translateX(24px);
           transform: translateX(24px);
   -webkit-transition: .5s ease-in-out;
