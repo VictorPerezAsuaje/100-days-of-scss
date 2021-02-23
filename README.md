@@ -5,7 +5,7 @@ Attempting the 100 days of (S)CSS by building 100 small/simple projects using SC
 The number 0 is the baseline I use for all projects, so they keep a certain consistency as specified in the following list:
 
 - A title header
-- A 300x300 pixels canvas
+- A 300x300 pixels canvas that can be adapted to change the size depending on the project.
 - An attribution paragraph at the bottom
 - A gravatar
 - Breakpoints (just in case)
