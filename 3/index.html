@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 days of (S)CSS - Project #3</title>
+    <link rel="stylesheet" href="assets/sass/style.css" />
+    <link rel="shortcut icon" href="images/Logo_transp.ico" />
+</head>
+<body>
+    <section class="container">
+        <!-- <h1>Color Picker / Interactive selector</h1> -->
+        <section class="canvas">
+            <figure class="image-changer">
+                <img src="images/jordan-zoom-92-black-nobg.png" alt="Zoom 92 black" class="shoe" id="shoe">
+            </figure>
+            <section class="color">
+                <div class="color__form">
+                    <h1>Jordan Zoom 92</h1>
+                    <h3>Choose your color</h3>
+                    <div class="color__choose-color">
+                        <button class="color__js-circle selected" id="black" onclick="ChangeColor(this)"></button>
+                        <button class="color__js-circle" id="blue" onclick="ChangeColor(this)"></button>
+                        <button class="color__js-circle" id="red" onclick="ChangeColor(this)"></button>
+                    </div>
+                    <div class="color__price">
+                        <h2><span id="price">150</span>$</h2>
+                        <button onclick="alert('bought!')" type="submit">BUY!</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
