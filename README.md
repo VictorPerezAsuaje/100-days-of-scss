@@ -2,7 +2,7 @@
 
 Attempting the 100 days of (S)CSS by building 100 small/simple projects using SCSS. The idea behind this is not just focusing on the CSS part - as some of them may also use Javascript to add a little bit of interactivity -, but to be disciplined, constant and try to work "under pressure" (time-schedule). 
 
-DISCLAIMER: These projects are not tutorial-based. To make that would make no sense. I just take some images as references to copy, just like working with a web designer, they provide you the design to accomplish and you do your best to match it somehow.
+**DISCLAIMER**: These projects are NOT tutorial-based. To make that would make no sense. I just take some images as references to copy, just like working with a web designer, they provide you the design to accomplish and you do your best to match it somehow.
 
 The number 0 is the baseline I use for all projects, so they keep a certain consistency as specified in the following list:
 
