@@ -29,7 +29,7 @@
 
             img{
                 position:absolute;
-                top:-100px;
+                top:-70px;
                 left:-60px;
                 transform: rotate(-40deg);
                 transition: .5s ease-in-out;
@@ -41,16 +41,14 @@
             }
 
             .shoe-shadow{
-                width: 55%;
-                height: 10px;
+                width: 90%;
+                height: 8px;
                 position: absolute;
-                background-color: #111;
+                background-image: linear-gradient(90deg, #111, rgba(0,0,0,0));
                 filter:blur(10px);
-                opacity: 0.3;
-                bottom:50px;
-                left: 80px;
-                transition: .5s ease-in-out;
-
+                opacity: 0.6;
+                bottom:70px;
+                left: 60px;
             }
         }
 
