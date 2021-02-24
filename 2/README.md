@@ -7,3 +7,5 @@
 <img src="https://user-images.githubusercontent.com/65077544/108916220-3bdf5f80-762e-11eb-9ca8-4d80c2265d19.gif" width="50%">
 
 <br />
+
+<p>Thanks to FrontEndMentor for this idea. Aside from the images they have in the website, I did not use anything else. You can check the design they created here: https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8</p>
