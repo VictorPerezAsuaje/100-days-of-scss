@@ -14,6 +14,8 @@ The number 0 is the baseline I use for all projects, so they keep a certain cons
 - Color palette on SCSS variables (not mapped)
 - Basic resets for margin, padding, font-family, etc.
 
+However, I may use all or none depending on the situation.
+
 Here you will see the whole list of projects done: http://todayilearned.eu/ 😄
 
 ## 🤘 Acknoledgements
