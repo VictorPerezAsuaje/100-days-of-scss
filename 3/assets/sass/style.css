@@ -58,10 +58,14 @@ h6 {
           flex-direction: column;
   width: 100%;
   height: 100vh;
+  background-image: linear-gradient(120deg, #33d6c0, #257fb3);
 }
 
-.container h1 {
-  margin-bottom: 2rem;
+.container .project-title {
+  margin-bottom: 8vh;
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+  color: #fefefe;
 }
 
 .container .canvas {
@@ -69,22 +73,22 @@ h6 {
   display: grid;
   -ms-grid-columns: 60% 40%;
       grid-template-columns: 60% 40%;
-  width: 700px;
-  height: 350px;
+  background-color: #fefefe;
+  width: 800px;
+  height: 450px;
   border-radius: 5px;
-  -webkit-box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2), -5px -8px 8px rgba(255, 255, 255, 0.9);
-          box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2), -5px -8px 8px rgba(255, 255, 255, 0.9);
+  -webkit-box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .container .canvas .image-changer {
-  max-height: 350px;
   position: relative;
 }
 
 .container .canvas .image-changer img {
   position: absolute;
-  top: -20vh;
-  left: -70px;
+  top: -100px;
+  left: -60px;
   -webkit-transform: rotate(-40deg);
           transform: rotate(-40deg);
   -webkit-transition: .5s ease-in-out;
@@ -92,22 +96,56 @@ h6 {
 }
 
 .container .canvas .image-changer img:hover {
-  -webkit-transform: rotate(-40deg) translateY(-5vh);
-          transform: rotate(-40deg) translateY(-5vh);
+  -webkit-transform: rotate(-40deg) translate(30px, -5vh);
+          transform: rotate(-40deg) translate(30px, -5vh);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.container .canvas .image-changer .shoe-shadow {
+  width: 55%;
+  height: 10px;
+  position: absolute;
+  background-color: #111;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  opacity: 0.3;
+  bottom: 50px;
+  left: 80px;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
 }
 
 .container .canvas .color {
-  margin: auto 0;
+  height: 100%;
 }
 
 .container .canvas .color__form {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 2fr 1fr 2fr 3fr;
+      grid-template-rows: 2fr 1fr 2fr 3fr;
+  height: 100%;
   gap: 1rem;
+}
+
+.container .canvas .color__form h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .canvas .color__form h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container .canvas .color__choose-color {
@@ -118,18 +156,19 @@ h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 80%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   margin-bottom: 2rem;
 }
 
 .container .canvas .color__js-circle {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   opacity: 0.7;
   outline: none;
+  margin-top: 4vh;
 }
 
 .container .canvas .color__js-circle#black {
@@ -151,8 +190,8 @@ h6 {
 }
 
 .container .canvas .color__js-circle#black.selected, .container .canvas .color__js-circle#red.selected, .container .canvas .color__js-circle#blue.selected {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
   opacity: 1;
 }
 
@@ -161,6 +200,9 @@ h6 {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container .canvas .color__price h2 {
@@ -174,10 +216,11 @@ h6 {
   width: 110%;
   -webkit-transition: 200ms ease-in-out;
   transition: 200ms ease-in-out;
+  height: 80px;
 }
 
 .container .canvas .color__price button:hover {
-  background-color: #350974;
+  background-color: #DF2C59;
   -webkit-transition: 200ms ease-in-out;
   transition: 200ms ease-in-out;
 }
