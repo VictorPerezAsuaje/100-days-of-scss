@@ -7,17 +7,17 @@
 @keyframes ExpandAndShrink{
     0%{
         transform: scaleX(1); 
-        left: 90px;
+        left: 50px;
         opacity: 0.6;
     }
     50%{
         transform: scaleX(0.9); 
-        left: 70px;
+        left: 60px;
         opacity: 0.4;
     }
     100%{
         transform: scaleX(1); 
-        left: 90px;
+        left: 50px;
         opacity: 0.6;
     }    
 }

@@ -76,19 +76,19 @@ h6 {
   0% {
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
-    left: 90px;
+    left: 50px;
     opacity: 0.6;
   }
   50% {
     -webkit-transform: scaleX(0.9);
             transform: scaleX(0.9);
-    left: 70px;
+    left: 60px;
     opacity: 0.4;
   }
   100% {
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
-    left: 90px;
+    left: 50px;
     opacity: 0.6;
   }
 }
@@ -97,19 +97,19 @@ h6 {
   0% {
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
-    left: 90px;
+    left: 50px;
     opacity: 0.6;
   }
   50% {
     -webkit-transform: scaleX(0.9);
             transform: scaleX(0.9);
-    left: 70px;
+    left: 60px;
     opacity: 0.4;
   }
   100% {
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
-    left: 90px;
+    left: 50px;
     opacity: 0.6;
   }
 }
@@ -146,7 +146,7 @@ h6 {
   -ms-grid-columns: 60% 40%;
       grid-template-columns: 60% 40%;
   background-color: #fefefe;
-  width: 800px;
+  width: 700px;
   height: 450px;
   border-radius: 5px;
   -webkit-box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
@@ -160,7 +160,7 @@ h6 {
 .container .canvas .image-changer img {
   position: absolute;
   top: -70px;
-  left: -60px;
+  left: -110px;
   -webkit-transform: rotate(-40deg);
           transform: rotate(-40deg);
   -webkit-transition: .5s ease-in-out;
@@ -179,7 +179,6 @@ h6 {
           filter: blur(10px);
   opacity: 0.6;
   bottom: 70px;
-  left: 90px;
   -webkit-animation: ExpandAndShrink 4s ease-in-out infinite;
           animation: ExpandAndShrink 4s ease-in-out infinite;
 }
