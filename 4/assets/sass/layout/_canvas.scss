@@ -1,0 +1,101 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 1rem;
+
+    width:95%;
+    height: 90vh;
+    margin: 5vh auto;
+
+    .friends{
+        grid-column: 1/4;
+        width: 100%;
+        margin: auto;
+
+        img{
+            width: 100%;
+            height: 20vh;
+            object-fit: cover;}
+    }
+
+    
+    .canvas{
+        min-width: 250px;
+        height: 250px;
+        border-radius: 24px;
+        transition: 1s ease-in-out;
+        position: relative;        
+
+        &__front,
+        &__back{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            border-radius: 24px;
+            box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+            background-color: $color-black;
+
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__front{
+            transform: rotateY(0);
+            transition: .5s ease-in-out;
+            transition-delay: 0.35s;
+
+            h1{
+                font-size: 1.7rem;
+                letter-spacing: 0.3rem;
+            }
+        }
+
+        &__back{
+            transform: rotateY(90deg);
+            transition: .5s ease-in-out;
+
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 24px;
+                object-fit: cover;
+            }
+        }
+
+        #joey{
+            h1{color:#ff4238;}
+        }
+        #phoebe{
+            h1{color:#ffdc00;}
+        }
+        #chandler{
+            h1{color:#42a2d6;}
+        }
+        #monica{
+            h1{color:#ff4238;}
+        }
+        #ross{
+            h1{color:#ffdc00;}
+        }
+        #rachel{
+            h1{color:#42a2d6;}
+        }
+
+        &:hover{
+
+            .canvas__front{
+                transform: rotateY(90deg);
+                transition: .5s ease-in-out; 
+            }
+
+            .canvas__back{
+                transform: rotateY(0deg);
+                transition: .5s ease-in-out;
+                transition-delay: 0.35s;
+            }
+        }
+        
+    }
+}
