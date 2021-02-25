@@ -1,0 +1,23 @@
+@keyframes FloatEffect{
+    0%{transform: translate(30px, 0px) rotate(-40deg);}
+    50%{transform: translate(30px, -5vh) rotate(-40deg);}
+    100%{transform: translate(30px, 0px) rotate(-40deg);}
+}
+
+@keyframes ExpandAndShrink{
+    0%{
+        transform: scaleX(1); 
+        left: 90px;
+        opacity: 0.6;
+    }
+    50%{
+        transform: scaleX(0.9); 
+        left: 70px;
+        opacity: 0.4;
+    }
+    100%{
+        transform: scaleX(1); 
+        left: 90px;
+        opacity: 0.6;
+    }    
+}
