@@ -95,7 +95,7 @@ Created by Victor Pérez Asuaje (https://www.victorperezasuaje.com/). This work 
 
 <p> I made this one because I was not really sure what I wanted to do today. However, I was seeing Friends - for the nth time - and I though "hey! Let's make a tribute to all the laughts I got from this series." And here it is 😄</p>
 
-<p>Note: No Javascript was used for this prokect.</p>
+<p>Note: No Javascript was used for this project. The cards flip because of the :hover property.</p>
 
 <br />
 
