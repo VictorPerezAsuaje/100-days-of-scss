@@ -2,6 +2,8 @@
 
 Attempting the 100 days of (S)CSS by building 100 small/simple projects using SCSS. The idea behind this is not just focusing on the CSS part - as some of them may also use Javascript to add a little bit of interactivity -, but to be disciplined, constant and try to work "under pressure" (time-schedule). 
 
+**DISCLAIMER**: These projects are NOT tutorial-based. To make that would make no sense. I just take some images as references to copy, just like working with a web designer, they provide you the design to accomplish and you do your best to match it somehow.
+
 The number 0 is the baseline I use for all projects, so they keep a certain consistency as specified in the following list:
 
 - A title header
@@ -11,6 +13,8 @@ The number 0 is the baseline I use for all projects, so they keep a certain cons
 - Breakpoints (just in case)
 - Color palette on SCSS variables (not mapped)
 - Basic resets for margin, padding, font-family, etc.
+
+However, I may use all or none depending on the situation. This is just made to save me some time as I'm usually only able to spend 3 hours on these projects tops.
 
 Here you will see the whole list of projects done: http://todayilearned.eu/ 😄
 
@@ -62,3 +66,15 @@ Created by Victor Pérez Asuaje (https://www.victorperezasuaje.com/). This work 
 <br />
 
 <img src="https://user-images.githubusercontent.com/65077544/108760041-6f968880-754d-11eb-8d87-8e3aa89e8ba2.gif" width="50%">
+
+<br />
+
+### 2nd Day - Interactive pricing component
+
+<p>This one took me longer than the previous one (for obvious reasons I guess 😂). In this case I used Javascript to add interactions with the user, so the range can be activated and the values can change. The little switch right below also works and multiplies the original value by eight, so it "applies" the 20% discount.</p>
+
+<br />
+
+<img src="https://user-images.githubusercontent.com/65077544/108916220-3bdf5f80-762e-11eb-9ca8-4d80c2265d19.gif" width="50%">
+
+<br />
